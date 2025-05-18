@@ -1,0 +1,5 @@
+provider "google" {
+  # Project and region can be specified here or through environment variables
+  # project = "your-project-id"
+  # region  = "us-central1"
+}

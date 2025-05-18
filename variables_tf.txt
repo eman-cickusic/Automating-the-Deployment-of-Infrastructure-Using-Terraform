@@ -1,0 +1,37 @@
+# Variable definitions for the root module
+
+variable "project_id" {
+  description = "The GCP project ID"
+  type        = string
+  default     = null  # Should be provided by environment variable or terraform.tfvars
+}
+
+variable "region" {
+  description = "The default region for resources"
+  type        = string
+  default     = "us-central1"
+}
+
+variable "zone_1" {
+  description = "Zone for first VM instance"
+  type        = string
+  default     = "us-central1-a"
+}
+
+variable "zone_2" {
+  description = "Zone for second VM instance"
+  type        = string
+  default     = "us-east1-b"
+}
+
+variable "machine_type" {
+  description = "The machine type for VM instances"
+  type        = string
+  default     = "e2-micro"
+}
+
+variable "network_name" {
+  description = "Name of the VPC network"
+  type        = string
+  default     = "mynetwork"
+}
