@@ -4,8 +4,6 @@ This repository demonstrates how to use Terraform to automate the deployment of 
 
 ## Project Overview
 
-![Infrastructure Diagram](diagram.png)
-
 This project creates:
 - One auto mode VPC network
 - A firewall rule to allow HTTP, SSH, RDP, and ICMP traffic
