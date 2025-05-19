@@ -8,7 +8,7 @@ This project creates:
 - One auto mode VPC network
 - A firewall rule to allow HTTP, SSH, RDP, and ICMP traffic
 - Two VM instances in different zones connected to the network
-
+ 
 ## Video 
 
 https://youtu.be/FdxTlCYXBDs
